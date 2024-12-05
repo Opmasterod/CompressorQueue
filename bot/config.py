@@ -14,6 +14,7 @@
 # https://github.com/1Danish-00/CompressorQueue/blob/main/License> .
 
 from decouple import config
+import os
 
 try:
     APP_ID = int(os.environ.get("APP_ID", "23713783"))
